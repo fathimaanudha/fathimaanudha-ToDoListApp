@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body style="background-color: rgb(238, 240, 124);">
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand"><img src="./images/todo-icon-16.jpg" alt="" width="50px" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mainav">
+            <a class="nav-item nav-link " id="btn" href="#" onclick="ajax()">ToDo List <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link " href="" onClick="document.location.reload(true)">Refresh</a>
+            <a class="nav-item nav-link " style="float: right;" href="" onclick="go()">Logout</a>
+           
+          </div>
+        </div>
+      </nav>
+      <div class="fixed">
+        
+        <img id="img1" src="./images/2.png" alt="">
+      </div>
+
+  
+      
+      <div id="buttonC" >
+        <button id="create"  type="button" class="btn btn-lg"><img src="./images/todo-icon-16.jpg" alt="" width="50px" height="50px"> Start Using Your App!</button>
+        
+     </div>
+      <div id="bodyp" class="container ">
+        
+        
+            
+        <div>
+            <h2 class="zone" style="margin-left: 6%;margin-top: 5%;"></h2>
+        
+      </div>
+      <div id="demo" class="new gfg">
+           <ul id="list">
+             
+             
+           </ul>
+        
+      </div>
+
+    
+  
+    </div>
+
+
+
+          
+      
+
+<script src="./script.js"></script>  
+
+
+
+</body>
+</html>
